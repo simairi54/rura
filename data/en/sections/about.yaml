@@ -1,0 +1,101 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: IT Engineer | Cloud Engineer | DevOps Engineer | Linux
+# your company information
+company:
+  name: tekspace.cloud
+  url: "https://www.tekspace.cloud"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'A qualified IT/Cloud Engineer with 8+ years of experience providing IT support to leading organisations in Zimbabwe with networks of up to 3000 employees and 2,5 million active subscribers, maintaining IT system integrity for successful and ongoing business operations as well as designing solutions that account for growth and new technologies of tomorrow.
+
+My heightened analytical and problem-solving ability, meticulous attention to detail and IT expertise combined with an approachable demeanour and interrelationship skills, has enabled me to provide helpful, innovative and practical IT solutions for colleagues at all levels, contributing to their ability to perform effectively and with confidence. 
+
+I am well-positioned to add value to any organisation seeking an experienced and proven IT/Cloud Engineer to collaborate with key stakeholders in order to achieve IT objectives.
+
+
+**AREAS OF STRENGTH** 
+
+➡ Leadership - Garnering buy-in & engagement by providing an environment of acceptance and support. 
+➡ IT/Cloud Technology - Utilising the latest IT platforms & technologies to achieve operational & business goals.
+➡ Risk Management - Staying abreast of technology in order to identify and mitigate related risks.
+➡ Stakeholder Management - Investing time in people for greater synergy, enthusiasm and innovative results.
+➡ Communication - Ability to explain technical issues clearly to non-technical stakeholders at all levels.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "simairi54@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/simairi54"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/leo-simairi-92340155/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/sim_le"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/leosimairi/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: AWS Certified Solutions Architect – Associate
+  url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-associate"
+  badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: certification
+  name: Microsoft Certified Azure Fundamentals
+  url: "https://www.credly.com/earner/earned/badge/f46b0d15-6a84-4d8d-b851-7f27f8c00c70"
+  badge: "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+
+- type: certification
+  name: VMware Certified Professional - Data Center Virtualization 2021
+  url: "https://www.credly.com/earner/earned/badge/b4c1c7c6-889c-4901-959d-1154942c6a08"
+  badge: "https://images.credly.com/size/680x680/images/d17db04c-7c17-4bb6-ac91-e287dfb3340c/VMware_Cert_P_DCV.png"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 95
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

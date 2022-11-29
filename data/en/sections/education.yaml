@@ -1,0 +1,66 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor's Degree in Information Systems
+  icon: fa-microscope
+  timeframe: 2013-2016
+  institution:
+    name: Women's University in Africa
+    url: "https://www.wua.ac.zw/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4
+ 
+- name: Diploma in Applied Information Technology
+  icon: fa-graduation-cap
+  timeframe: 2010-2013
+  institution:
+    name: University of Zimbabwe
+    url: "http://www.uz.ac.zw/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.4
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Network Design & Modelling
+      achieved: 4
+      outOf: 4
+    - name: Advanced Network Planning & Installation
+      achieved: 4
+      outOf: 4
+    - name: Network Administratio & Management
+      achieved: 4
+      outOf: 4
+  
+  extracurricularActivities: #(optional)
+  - Hockey Captain 2010-2011
+  
+- name: Higher Secondary School Certificate
+  icon: fa-school
+  timeframe: 2002-2006
+  institution:
+    name: Chipadze High School
+    url: "#"
+  
+  extracurricularActivities: #(optional)
+  - Cricket player
+  - Hockey player
+  - chess team
+  
