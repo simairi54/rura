@@ -32,9 +32,22 @@
 
 
 
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
 
 
 
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_3.png" />
 
 
 
@@ -65,6 +78,35 @@
     
     
 
+    
+        
+        
+            
+            
+            
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4MTFDPNL7"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-X4MTFDPNL7', { 'anonymize_ip': false });
+}
+</script>
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
 
 
 
@@ -78,20 +120,34 @@
 
 
 
+
+
+
+
+
+
+
+  
+
+
   
 
 
 
 
+  
+  
+    
+  
+  
 
 
 
-
-
-
-
-
-
+  
+  
+    
+  
+  
 
 
 
@@ -107,6 +163,8 @@
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
+      
+        <img src="/images/inverted-logo_hue1a6efc77c6901472678b471ef751950_35537_42x0_resize_box_3.png" id="logo" alt="Logo">
       Leo Simairi Blog</a>
     <button
       class="navbar-toggler navbar-dark"
@@ -214,6 +272,10 @@
           </li>
         
         
+          <li class="nav-item">
+            <a class="nav-link" id="note-link" href="/notes/">Notes</a>
+          </li>
+        
         
             
               <li class="nav-item">
@@ -223,11 +285,36 @@
         
         
         
+          <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+        
       </ul>
     </div>
   </div>
   
   
+    <img src="/images/main-logo_hu4878ed15ccfbd539f4f3ad358e2b414b_36125_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo_hue1a6efc77c6901472678b471ef751950_35537_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -837,7 +924,7 @@ I am well-positioned to add value to any organisation seeking an experienced and
         </p>
     </div>
     
-    <p>ZIMRA is a revenue collection for the Ministry of Finance in Zimbabwe.</p>
+    <p>ZIMRA collects revenue for the Ministry of Finance in Zimbabwe.</p>
     
     
     <h6 class="text-muted">Responsibilities:</h6>
@@ -1214,10 +1301,6 @@ I am well-positioned to add value to any organisation seeking an experienced and
 
 
 
-  
-    
-  
-
 
 
   
@@ -1246,8 +1329,6 @@ I am well-positioned to add value to any organisation seeking an experienced and
 
   
   
-  
-    
   
 
   
@@ -1375,15 +1456,29 @@ I am well-positioned to add value to any organisation seeking an experienced and
           
           <div class="col-md-4 col-sm-12">
             <p>Stay up to date with email notification</p>
-            
-              <form method='post' action='https://blogtrottr.com'>
-              <div class="form-group">
-              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='https://magnificent-haupia-4e41d1.netlify.app/index.xml' />
-              <input type='hidden' name='schedule_type' value='1' />
-              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
-              <button type="submit" class="btn btn-info"> Submit </button>
-              </div>
+              
+              <form
+                action="https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;amp;id=094a24c76e"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate >
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="mce-EMAIL"
+                    name="EMAIL"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >By entering your email address, you agree to receive the newsletter of this website.</small
+                  >
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
               </form>
             
           </div>
@@ -1424,6 +1519,11 @@ I am well-positioned to add value to any organisation seeking an experienced and
 <script type="text/javascript" src="/js/navbar.js"></script>
 <script type="text/javascript" src="/js/plyr.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+
+
+
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
 
 
 
