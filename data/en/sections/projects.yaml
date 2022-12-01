@@ -20,7 +20,14 @@ buttons:
   filter: "hobby"
 
 # your projects
-
-- comment: UPDATING SOON....
+projects:
+- name: Deploying a free static website/blog
+  #logo: /images/sections/projects/kubernetes.png
+  role: Contributor 
+  timeline: "October 2022- Present"
+  repo: https://github.com/simairi54/rura.git # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Utilize resources like Hugo, git, github, and Netlify to host your website for free. 
+  tags: ["professional", "website", "cloud"]
         
         
