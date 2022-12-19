@@ -11,6 +11,32 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Nautilus xFusionCorp(KodeKloud)
+    url: "https://www.kodekloud-engineer.com/#!/tasks"
+    location: 
+    # company overview
+    overview: 
+  positions:
+  - designation: System Administrator
+    start: Dec 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Linux System Administration
+    - Users & Groups
+    - Filesystems
+    - Storage, LVM
+    - Packages
+    - Services
+    - Networking
+    - IPTables
+    - Firewalls
+    - Deploy simple Applications
+
+
+
+- company:
     name: ZIMRA
     url: "https://www.zimra.co.zw"
     location: Harare
@@ -24,8 +50,15 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Design and deploy cloud infrastructure
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Design, develop and manage disaster recovery tool that backup Kubernetes volumes, databases, and cluster's resource definition.
     - Lead Operations team.
+    - Build CI/CD Pipelines
+    - Containerize Applications
+    - Build Container Clusters
+    - Troubleshooting Issues 
+    - Deploy multi-tier applications
+    - Develop Automation Playbooks 
+
 
 - company:
     name: Telecel Zimbabwe
@@ -38,7 +71,8 @@ experiences:
     end: Feb 2018
 
     responsibilities:
-
     - maintained and installed datacenter systems
     - Defined and managed IT Disaster Recovery Strategy for organization
+    - Troubleshooting Complex issues
+    - SolarWinds Monitoring System
     
